@@ -25,10 +25,18 @@ body {
 }
 .header {
   background: linear-gradient(135deg, #0f1e4d, #1e3a6e);
-  padding: 45px 30px 35px;
+  padding: 40px 30px 35px;
   text-align: center;
   color: #fff;
   position: relative;
+}
+.header .logo {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 15px;
+  display: block;
+  filter: brightness(0) invert(1);
+  opacity: 0.95;
 }
 .header::after {
   content: "";
@@ -156,6 +164,7 @@ body {
 <body>
 <div class="card">
   <div class="header">
+    <img src="logo.png" alt="logo" class="logo">
     <h1>山东创洁洗涤科技有限公司</h1>
     <div class="en-name">Shandong Chuangjie Washing Technology Co., Ltd.</div>
   </div>
@@ -165,8 +174,8 @@ body {
       <div>
         <div class="label">公司地址</div>
         <div class="label-en">Address</div>
-        <div class="value">中国山东省济宁市经济开发区<br>生物产业园新交曼北路</div>
-        <div class="value-en">North Xinjiaoman Road, Economic Development Zone<br>Biotechnology Industrial Park, Jining, Shandong, China</div>
+        <div class="value">山东省济宁市焦满路北</div>
+        <div class="value-en">North Jiaoman Road, Jining, Shandong, China</div>
       </div>
     </div>
     <div class="item">
@@ -185,7 +194,7 @@ body {
             <span class="website-name">chuangjieinternational.com</span>
             <span class="tag-en">International Website</span>
           </a>
-          <a href="https://tinyurl.com/mu4dje8n" class="website-link">
+          <a href="https://chuangjiecn.en.alibaba.com/" class="website-link">
             <span class="tag">Alibaba</span>
             <span class="website-name">阿里巴巴店铺</span>
             <span class="tag-en">Alibaba Store</span>
